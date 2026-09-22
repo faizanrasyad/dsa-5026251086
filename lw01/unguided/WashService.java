@@ -3,7 +3,6 @@ package lw01.unguided;
 abstract class WashService implements Billable {
     private String id;
     private int days;
-    private int units;
 
     protected WashService(String id, int days) {
         if (days <= 0) {

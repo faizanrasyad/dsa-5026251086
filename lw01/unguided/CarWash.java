@@ -2,6 +2,7 @@ package lw01.unguided;
 
 public class CarWash extends WashService {
     private int units;
+    
     public CarWash(String id, int days, int units) {
         super(id, days);
         this.units = units;
