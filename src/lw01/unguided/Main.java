@@ -1,4 +1,4 @@
-package lw01.unguided;
+package src.lw01.unguided;
 
 import java.util.ArrayList;
 import java.util.Scanner;

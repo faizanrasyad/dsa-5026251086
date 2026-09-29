@@ -1,4 +1,4 @@
-package lw01.unguided;
+package src.lw01.unguided;
 
 public class CarWash extends WashService {
     private int units;

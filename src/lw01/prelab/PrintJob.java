@@ -1,4 +1,4 @@
-package lw01.prelab;
+package src.lw01.prelab;
 
 abstract class PrintJob implements Chargeable {
     private String id;

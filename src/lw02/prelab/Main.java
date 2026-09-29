@@ -1,4 +1,4 @@
-package lw02.prelab;
+package src.lw02.prelab;
 
 import java.util.LinkedList;
 import java.util.Queue;

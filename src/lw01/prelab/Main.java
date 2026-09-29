@@ -1,4 +1,4 @@
-package lw01.prelab;
+package src.lw01.prelab;
 
 import java.util.ArrayList;
 import java.util.Scanner;

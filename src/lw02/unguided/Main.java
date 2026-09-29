@@ -1,4 +1,4 @@
-package lw02.unguided;
+package src.lw02.unguided;
 
 import java.util.LinkedList;
 import java.util.Queue;
