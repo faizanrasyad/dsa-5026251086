@@ -203,10 +203,10 @@ public class Main {
         dijkstraAlg(start);
 
         List<Integer> fewestPath = buildPath(destination, bfsPrev, start);
-        printSummary("Fewest Stops Route from " + names[start] + " to " + names[destination], buildPath(destination, bfsPrev, start)); // BELUM KELAR
+        printSummary("Fewest Stops Route from " + names[start] + " to " + names[destination], fewestPath); // BELUM KELAR
         
         List<Integer> fastestPath = buildPath(destination, dijkstraPrev, start);
-        printSummary("Fastest Route from " + names[start] + " to " + names[destination], buildPath(destination, dijkstraPrev, start));
+        printSummary("Fastest Route from " + names[start] + " to " + names[destination], fastestPath);
 
         System.out.println("=== Comparison ===");
         if (fewestPath.equals(fastestPath)) {
